@@ -2,7 +2,7 @@
 // let randomNum = Math.random (); // 0 through 0.99999
 // randomNum *= 6; // 0 to 5.99999
 // let randomNum = Math.floor((Math.random(*5))); // gets rid of decimal
-// randomNum++;
+// randomNum++; 1 to 6
 // console.log(randomNum);
 
 // or
@@ -41,10 +41,11 @@ if (randomNum !== 3 && randomNum !==5){
 }
 
 // or
+/*
 if (randomNum !== 3 && 5){
     console.log("NOT equal to 3 AND not equal to 5");
 }
-
+*/
 // 1e
 if (randomNum === 2 || randomNum === 4) {
     console.log("Equal to 2 or equal to 4");
@@ -61,9 +62,11 @@ if (randomNum >= 4) {
 }
 */
 
+/*
 randomNum = (randomNum >= 4) ? "Greater than or equal to 4" : "Less than 4";
 console.log(randomNum);
 
+*/
 // or
 
 randomNum >= 4 ? console.log("Greater than or equal to 4") : console.log("Less than 4");
@@ -72,7 +75,9 @@ randomNum >= 4 ? console.log("Greater than or equal to 4") : console.log("Less t
 // Switch Statement takes a parameter/argument and returns something based on the CASE (Or the match) that the parameter/argument goes with.
 // In this example, if randomNum is 1, it will display "One" (String of One) in the terminal, if randomNum is 2 it will display "Two" (String of Two)
 
+console.log(randomNum);
 switch (randomNum) {
+    // if result = 1, then run what is after the : ("One")
     case 1:
         console.log("One");
     break; // Break keywords are needed between each case so that the code for the case that follows does NOT also run
